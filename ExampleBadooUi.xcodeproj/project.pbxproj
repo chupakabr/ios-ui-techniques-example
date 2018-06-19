@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F311D1520BF1466003206FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D1420BF1466003206FB /* AppDelegate.swift */; };
+		3F311D1720BF1466003206FB /* EntryPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D1620BF1466003206FB /* EntryPointViewController.swift */; };
+		3F311D1A20BF1466003206FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F311D1820BF1466003206FB /* Main.storyboard */; };
+		3F311D1C20BF1468003206FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F311D1B20BF1468003206FB /* Assets.xcassets */; };
+		3F311D1F20BF1468003206FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F311D1D20BF1468003206FB /* LaunchScreen.storyboard */; };
+		3F311D2D20BF1673003206FB /* FriendsListContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D2C20BF1673003206FB /* FriendsListContainerViewModel.swift */; };
+		3F311D2F20BF16AC003206FB /* FriendsListUserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D2E20BF16AC003206FB /* FriendsListUserItem.swift */; };
+		3F311D3320BF16E8003206FB /* FriendsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3220BF16E8003206FB /* FriendsListViewModel.swift */; };
+		3F311D3520BF16F5003206FB /* FriendsListHeaderViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3420BF16F5003206FB /* FriendsListHeaderViewModelProtocol.swift */; };
+		3F311D3720BF1702003206FB /* FriendsListContentViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3620BF1702003206FB /* FriendsListContentViewModelProtocol.swift */; };
+		3F311D3920BF1729003206FB /* FriendsListContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3820BF1729003206FB /* FriendsListContainerViewController.swift */; };
+		3F311D3B20BF173A003206FB /* FriendsListUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3A20BF173A003206FB /* FriendsListUserCell.swift */; };
+		3F311D3F20BF1763003206FB /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D3E20BF1763003206FB /* FriendsListViewController.swift */; };
+		3F311D4120BF1771003206FB /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D4020BF1771003206FB /* FriendsListView.swift */; };
+		3F311D4320BF1784003206FB /* FriendsListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D4220BF1784003206FB /* FriendsListHeaderView.swift */; };
+		3F311D4520BF1794003206FB /* FriendsListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D4420BF1794003206FB /* FriendsListContentView.swift */; };
+		3F311D4720BF17C1003206FB /* FriendsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D4620BF17C1003206FB /* FriendsListPresenter.swift */; };
+		3F311D5320C001E9003206FB /* FriendsListHeaderDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5220C001E9003206FB /* FriendsListHeaderDemoViewModel.swift */; };
+		3F311D5520C001F6003206FB /* FriendsListContentDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5420C001F6003206FB /* FriendsListContentDemoViewModel.swift */; };
+		3F311D5720C0020D003206FB /* FriendsListHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5620C0020D003206FB /* FriendsListHeaderViewModel.swift */; };
+		3F311D5920C0021A003206FB /* FriendsListContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5820C0021A003206FB /* FriendsListContentViewModel.swift */; };
+		3F311D5C20C00265003206FB /* FriendsListItemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5B20C00265003206FB /* FriendsListItemFactory.swift */; };
+		3F311D5E20C0027C003206FB /* FriendsListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D5D20C0027C003206FB /* FriendsListDataProvider.swift */; };
+		3F311D6120C002BA003206FB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D6020C002BA003206FB /* UserModel.swift */; };
+		3F311D6320C015CB003206FB /* FriendsListItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D6220C015CB003206FB /* FriendsListItemProtocol.swift */; };
+		3F311D6620C023C4003206FB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F311D6520C023C4003206FB /* Observable.swift */; };
+		3FF2123020C1A993004D9888 /* FriendsListViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2122F20C1A993004D9888 /* FriendsListViewModelFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F311D1120BF1466003206FB /* ExampleBadooUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleBadooUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F311D1420BF1466003206FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F311D1620BF1466003206FB /* EntryPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointViewController.swift; sourceTree = "<group>"; };
+		3F311D1920BF1466003206FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F311D1B20BF1468003206FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F311D1E20BF1468003206FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F311D2020BF1468003206FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F311D2C20BF1673003206FB /* FriendsListContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContainerViewModel.swift; sourceTree = "<group>"; };
+		3F311D2E20BF16AC003206FB /* FriendsListUserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListUserItem.swift; sourceTree = "<group>"; };
+		3F311D3220BF16E8003206FB /* FriendsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewModel.swift; sourceTree = "<group>"; };
+		3F311D3420BF16F5003206FB /* FriendsListHeaderViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListHeaderViewModelProtocol.swift; sourceTree = "<group>"; };
+		3F311D3620BF1702003206FB /* FriendsListContentViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContentViewModelProtocol.swift; sourceTree = "<group>"; };
+		3F311D3820BF1729003206FB /* FriendsListContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContainerViewController.swift; sourceTree = "<group>"; };
+		3F311D3A20BF173A003206FB /* FriendsListUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListUserCell.swift; sourceTree = "<group>"; };
+		3F311D3E20BF1763003206FB /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		3F311D4020BF1771003206FB /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
+		3F311D4220BF1784003206FB /* FriendsListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListHeaderView.swift; sourceTree = "<group>"; };
+		3F311D4420BF1794003206FB /* FriendsListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContentView.swift; sourceTree = "<group>"; };
+		3F311D4620BF17C1003206FB /* FriendsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListPresenter.swift; sourceTree = "<group>"; };
+		3F311D5220C001E9003206FB /* FriendsListHeaderDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListHeaderDemoViewModel.swift; sourceTree = "<group>"; };
+		3F311D5420C001F6003206FB /* FriendsListContentDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContentDemoViewModel.swift; sourceTree = "<group>"; };
+		3F311D5620C0020D003206FB /* FriendsListHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListHeaderViewModel.swift; sourceTree = "<group>"; };
+		3F311D5820C0021A003206FB /* FriendsListContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListContentViewModel.swift; sourceTree = "<group>"; };
+		3F311D5B20C00265003206FB /* FriendsListItemFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListItemFactory.swift; sourceTree = "<group>"; };
+		3F311D5D20C0027C003206FB /* FriendsListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListDataProvider.swift; sourceTree = "<group>"; };
+		3F311D6020C002BA003206FB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3F311D6220C015CB003206FB /* FriendsListItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListItemProtocol.swift; sourceTree = "<group>"; };
+		3F311D6520C023C4003206FB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		3FF2122F20C1A993004D9888 /* FriendsListViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewModelFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F311D0E20BF1466003206FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F311D0820BF1466003206FB = {
+			isa = PBXGroup;
+			children = (
+				3F311D1320BF1466003206FB /* ExampleBadooUi */,
+				3F311D1220BF1466003206FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F311D1220BF1466003206FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D1120BF1466003206FB /* ExampleBadooUi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F311D1320BF1466003206FB /* ExampleBadooUi */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D4E20C000D2003206FB /* DemoApp */,
+				3F311D4D20C000C8003206FB /* RealApp */,
+				3F311D4920BF17DB003206FB /* Components */,
+				3F311D1420BF1466003206FB /* AppDelegate.swift */,
+				3F311D1620BF1466003206FB /* EntryPointViewController.swift */,
+				3F311D1820BF1466003206FB /* Main.storyboard */,
+				3F311D1B20BF1468003206FB /* Assets.xcassets */,
+				3F311D1D20BF1468003206FB /* LaunchScreen.storyboard */,
+				3F311D2020BF1468003206FB /* Info.plist */,
+			);
+			path = ExampleBadooUi;
+			sourceTree = "<group>";
+		};
+		3F311D2620BF1487003206FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D2820BF14ED003206FB /* Container */,
+				3F311D2920BF14F5003206FB /* Items */,
+				3F311D4820BF17CD003206FB /* Presentation */,
+				3F311D3E20BF1763003206FB /* FriendsListViewController.swift */,
+				3F311D4020BF1771003206FB /* FriendsListView.swift */,
+				3F311D4220BF1784003206FB /* FriendsListHeaderView.swift */,
+				3F311D4420BF1794003206FB /* FriendsListContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3F311D2720BF14A6003206FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D2A20BF1506003206FB /* Container */,
+				3F311D2B20BF150B003206FB /* Items */,
+				3F311D3220BF16E8003206FB /* FriendsListViewModel.swift */,
+				3F311D3420BF16F5003206FB /* FriendsListHeaderViewModelProtocol.swift */,
+				3F311D3620BF1702003206FB /* FriendsListContentViewModelProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F311D2820BF14ED003206FB /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D3820BF1729003206FB /* FriendsListContainerViewController.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		3F311D2920BF14F5003206FB /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D3A20BF173A003206FB /* FriendsListUserCell.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		3F311D2A20BF1506003206FB /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D2C20BF1673003206FB /* FriendsListContainerViewModel.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		3F311D2B20BF150B003206FB /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D6220C015CB003206FB /* FriendsListItemProtocol.swift */,
+				3F311D2E20BF16AC003206FB /* FriendsListUserItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		3F311D4820BF17CD003206FB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D4620BF17C1003206FB /* FriendsListPresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3F311D4920BF17DB003206FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D6420C023B1003206FB /* Utils */,
+				3F311D4A20BF17E1003206FB /* FriendsList */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3F311D4A20BF17E1003206FB /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D2720BF14A6003206FB /* Model */,
+				3F311D2620BF1487003206FB /* UI */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		3F311D4D20C000C8003206FB /* RealApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D4F20C00102003206FB /* FriendsList */,
+			);
+			path = RealApp;
+			sourceTree = "<group>";
+		};
+		3F311D4E20C000D2003206FB /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D5020C0010E003206FB /* FriendsList */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		3F311D4F20C00102003206FB /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D5A20C00250003206FB /* Data */,
+				3F311D5620C0020D003206FB /* FriendsListHeaderViewModel.swift */,
+				3F311D5820C0021A003206FB /* FriendsListContentViewModel.swift */,
+				3FF2122F20C1A993004D9888 /* FriendsListViewModelFactory.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		3F311D5020C0010E003206FB /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D5220C001E9003206FB /* FriendsListHeaderDemoViewModel.swift */,
+				3F311D5420C001F6003206FB /* FriendsListContentDemoViewModel.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		3F311D5A20C00250003206FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D5F20C00297003206FB /* Model */,
+				3F311D5B20C00265003206FB /* FriendsListItemFactory.swift */,
+				3F311D5D20C0027C003206FB /* FriendsListDataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3F311D5F20C00297003206FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D6020C002BA003206FB /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F311D6420C023B1003206FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3F311D6520C023C4003206FB /* Observable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F311D1020BF1466003206FB /* ExampleBadooUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F311D2320BF1468003206FB /* Build configuration list for PBXNativeTarget "ExampleBadooUi" */;
+			buildPhases = (
+				3F311D0D20BF1466003206FB /* Sources */,
+				3F311D0E20BF1466003206FB /* Frameworks */,
+				3F311D0F20BF1466003206FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleBadooUi;
+			productName = ExampleBadooUi;
+			productReference = 3F311D1120BF1466003206FB /* ExampleBadooUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F311D0920BF1466003206FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Badoo;
+				TargetAttributes = {
+					3F311D1020BF1466003206FB = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F311D0C20BF1466003206FB /* Build configuration list for PBXProject "ExampleBadooUi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F311D0820BF1466003206FB;
+			productRefGroup = 3F311D1220BF1466003206FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F311D1020BF1466003206FB /* ExampleBadooUi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F311D0F20BF1466003206FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F311D1F20BF1468003206FB /* LaunchScreen.storyboard in Resources */,
+				3F311D1C20BF1468003206FB /* Assets.xcassets in Resources */,
+				3F311D1A20BF1466003206FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F311D0D20BF1466003206FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F311D6320C015CB003206FB /* FriendsListItemProtocol.swift in Sources */,
+				3F311D2D20BF1673003206FB /* FriendsListContainerViewModel.swift in Sources */,
+				3F311D1720BF1466003206FB /* EntryPointViewController.swift in Sources */,
+				3F311D5920C0021A003206FB /* FriendsListContentViewModel.swift in Sources */,
+				3F311D4120BF1771003206FB /* FriendsListView.swift in Sources */,
+				3F311D5E20C0027C003206FB /* FriendsListDataProvider.swift in Sources */,
+				3F311D5720C0020D003206FB /* FriendsListHeaderViewModel.swift in Sources */,
+				3F311D5320C001E9003206FB /* FriendsListHeaderDemoViewModel.swift in Sources */,
+				3F311D1520BF1466003206FB /* AppDelegate.swift in Sources */,
+				3F311D4720BF17C1003206FB /* FriendsListPresenter.swift in Sources */,
+				3F311D2F20BF16AC003206FB /* FriendsListUserItem.swift in Sources */,
+				3F311D6620C023C4003206FB /* Observable.swift in Sources */,
+				3F311D6120C002BA003206FB /* UserModel.swift in Sources */,
+				3F311D5520C001F6003206FB /* FriendsListContentDemoViewModel.swift in Sources */,
+				3F311D3F20BF1763003206FB /* FriendsListViewController.swift in Sources */,
+				3F311D3920BF1729003206FB /* FriendsListContainerViewController.swift in Sources */,
+				3F311D4320BF1784003206FB /* FriendsListHeaderView.swift in Sources */,
+				3F311D3520BF16F5003206FB /* FriendsListHeaderViewModelProtocol.swift in Sources */,
+				3F311D3320BF16E8003206FB /* FriendsListViewModel.swift in Sources */,
+				3F311D3720BF1702003206FB /* FriendsListContentViewModelProtocol.swift in Sources */,
+				3F311D4520BF1794003206FB /* FriendsListContentView.swift in Sources */,
+				3FF2123020C1A993004D9888 /* FriendsListViewModelFactory.swift in Sources */,
+				3F311D3B20BF173A003206FB /* FriendsListUserCell.swift in Sources */,
+				3F311D5C20C00265003206FB /* FriendsListItemFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F311D1820BF1466003206FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F311D1920BF1466003206FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F311D1D20BF1468003206FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F311D1E20BF1468003206FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F311D2120BF1468003206FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F311D2220BF1468003206FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F311D2420BF1468003206FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleBadooUi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.badoo.dev.demo.ExampleBadooUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F311D2520BF1468003206FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleBadooUi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.badoo.dev.demo.ExampleBadooUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F311D0C20BF1466003206FB /* Build configuration list for PBXProject "ExampleBadooUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F311D2120BF1468003206FB /* Debug */,
+				3F311D2220BF1468003206FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F311D2320BF1468003206FB /* Build configuration list for PBXNativeTarget "ExampleBadooUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F311D2420BF1468003206FB /* Debug */,
+				3F311D2520BF1468003206FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F311D0920BF1466003206FB /* Project object */;
+}
