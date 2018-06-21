@@ -32,7 +32,7 @@ final class FriendsListContentViewModel: FriendsListContentViewModelProtocol {
     }
 
     func onItemSelected(_ item: FriendsListItemProtocol, at indexPath: IndexPath) {
-        // TODO Add your business logic here
+        // Add your business logic here
         print("did select item at \(indexPath): \(item)")
     }
 

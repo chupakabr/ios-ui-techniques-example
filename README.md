@@ -1,7 +1,7 @@
 # iOS UI dev techniques
 
-Example project for Badoo iOS UI development techniques article.
+Example project of Badoo iOS UI development techniques article.
 
-#### How the app looks:
+#### The look of the app
 
 ![](ios-ui-dev-technique-example.gif)

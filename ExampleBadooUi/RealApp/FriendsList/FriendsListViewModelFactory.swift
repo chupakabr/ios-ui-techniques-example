@@ -32,7 +32,6 @@ final class FriendsListViewModelFactory: FriendsListViewModelFactoryProtocol {
 
     func makeContentViewModel() -> FriendsListContentViewModelProtocol {
         let viewModel = FriendsListContentViewModel(dataProvider: dataProvider)
-        // TODO
         return viewModel
     }
 }
